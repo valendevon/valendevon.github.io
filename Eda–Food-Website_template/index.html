@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" />
+	<title>EDA</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+
+	<div class="main_block">
+	<div class="left">
+		<div class="logo">
+			<img src="img/logo.png">
+		</div>
+		<nav>
+			<input type="checkbox" name="checkbox" class="burg" id="burger">
+			<label for="burger" class="burg"></label>
+			<ul>
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Продукты</a></li>
+				<li><a href="#">Как приготовить</a></li>
+				<li><a href="#">Кулинарная книга</a></li>
+				<li><a href="#">Здоровье</a></li>
+				<li><a href="#">Авторы</a></li>
+			</ul>
+		</nav>
+		<div class="social">
+			<div class="eng">
+				<p><span>RU</span><span class="en">EN</span></p>
+			</div>
+			<div class="soc_icon">
+				<a href="#" class="vk"><img src="img/vk.png"></a>
+				<a href="#" class="insta"><img src="img/instagram.png"></a>
+				<a href="#" class="fb"><img src="img/facebook.png"></a>
+				<a href="#" class="google"><img src="img/Google.png"></a>
+			</div>
+		</div>
+	</div>
+	<div class="right">
+		<div class="search_block">
+			<div class="search">
+				<form>
+					<img src="img/search.jpg">
+					<input type="search" name="search">
+				</form>
+			</div>
+			<div class="right_search">
+				<a href="#"><img src="img/bell.jpg"></a>
+				<a href="#"><img src="img/user-PROFILE.jpg"></a>
+			</div>
+		</div>
+<div class="lavr">
+	<img src="img/06.png">
+	<p>ПОДБОР РЕЦЕПТОВ</p>
+</div>
+<section class="select_block">
+	<form>
+		<div class="sel">
+		<select>
+			<option value="ВЫПЕЧКА И ДЕСЕРТЫ">ВЫПЕЧКА И ДЕСЕРТЫ
+			</option>
+			<option value="ВТОРЫЕ БЛЮДА">ВТОРЫЕ БЛЮДА</option>
+			<option value="НАПИТКИ">НАПИТКИ</option>
+		</select>
+		</div>
+<div class="sel">
+		<select>
+			<option value="ЛЮБОЕ БЛЮДО">ЛЮБОЕ БЛЮДО</option>
+		</select>
+	</div>
+	<div class="sel">
+		<select>
+			<option value="ЛЮБАЯ КУХНЯ">ЛЮБАЯ КУХНЯ</option>
+		</select>
+	</div>
+	<div class="sel">
+		<select>
+			<option value="ЛЮБОЕ МЕНЮ">ЛЮБОЕ МЕНЮ</option>
+		</select>
+	</div>
+	<div class="sel">
+			<select>
+			<option value="СЛОЖНОСТЬ">СЛОЖНОСТЬ</option>
+		</select>
+	</div>
+		<div class="rig">
+			<a class="ingr" href="#">ИНГРИДИЕНТЫ</a>
+				<a class="rec" href="#">ПОДОБРАТЬ РЕЦЕПТЫ</a>
+		</div>
+	</form>
+</section>
+<main>
+	<div class="product_block">
+		<div class="product_block_item">
+			<img src="img/11.jpg">
+			<div class="desc">
+				<p>блюдо дня</p>
+				<p>куриные ножки на гриле</p>
+				<div>
+				<img class="b" src="img/ICONS.png">
+				</div>
+			</div>
+		</div>
+		<div class="product_block_item">
+			<img src="img/12.jpg">
+			<div class="desc">
+				<p>лучшие рецепты недели</p>
+				<p>7 лучших рецептов недели</p>
+				<div>
+				<img class="b" src="img/ICONS.png">
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="product_block2">
+	<div class="product_block_item2">
+		<img src="img/13.jpg">
+		<p>Как приготовить пирог в одной посуде 5 рецептов</p>
+	</div>
+	<div class="product_block2-1">
+			<div class="product_block_item2-2">
+				<img src="img/15.jpg">
+				<span><img src="img/121212121.png">полезное</span>
+				<p>Как приготовить сырный<br> торт с овощами</p>
+			</div>
+			<div class="product_block_item2-3">
+				<img src="img/16.jpg">
+				<p>10 простых напитков в жару</p>
+			</div>
+	</div>
+</div>
+<div class="product_block2 reverse">
+	<div class="product_block_item2">
+		<img src="img/19.jpg">
+		<p>Как приготовить пирог в одной посуде 5 рецептов</p>
+	</div>
+	<div class="product_block2-1">
+			<div class="product_block_item2-2">
+				<img src="img/17.jpg">
+				<p>Как приготовить сырный<br> торт с овощами</p>
+			</div>
+			<div class="product_block_item2-3">
+				<img src="img/18.jpg">
+				<p>10 простых напитков в жару</p>
+			</div>
+	</div>
+</div>
+<div class="lavr">
+	<img src="img/06.png">
+	<p>РЕЦЕПТЫ</p>
+</div>
+
+<section class="recepty">
+	<div class="button">
+    <button id="new">Новые рецепты</button>
+    <button id="popular">Популярные</button>
+    <button id="recomended">Рекомендуемые</button>
+  </div>
+
+   <div class="post_portfolio ">   
+    <div class="post_item new popular"> 
+      <div class="image">
+      	<img src="img/bludo1.jpg">
+      	<div class="author">
+      		<img src="img/ellipse.png">
+      		<p>Darina Fedorenko</p>
+      	</div>
+      </div>
+      <div class="image_cuption">
+      	<h5>Утиные ножки с овощми и грудинкой</h5>
+      	<div class="timer">
+      		<div class="tim">
+      			<img src="img/clock.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/shapka.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/run.png">
+      			<span>135 kKal</span>
+      		</div>
+      	</div>
+      	<p>говядина, масло топлёное, лук репчатый, 
+морковь, редька, перец сладкий, помидоры, 
+томат-пюре, картофель, чеснок, бульон мясной,
+соль, перец чёрный, зелень петрушки...</p>
+<div class="botom_cuption">
+	<div class="left_b">
+		<img src="img/like.png"><span>16</span>
+	</div>
+	<div class="right_b">
+		<img src="img/odnoklassniki.png">
+		<img src="img/facebook.png">
+		<img src="img/vk.png">
+	</div>
+</div>
+      </div>
+    </div>
+<div class="post_item new popular recomended"> 
+      <div class="image">
+      	<img src="img/bludo2.jpg">
+      	<div class="author">
+      		<img src="img/ellipse.png">
+      		<p>Darina Fedorenko</p>
+      	</div>
+      </div>
+      <div class="image_cuption">
+      	<h5>Утиные ножки с овощми и грудинкой</h5>
+      	<div class="timer">
+      		<div class="tim">
+      			<img src="img/clock.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/shapka.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/run.png">
+      			<span>135 kKal</span>
+      		</div>
+      	</div>
+      	<p>говядина, масло топлёное, лук репчатый, 
+морковь, редька, перец сладкий, помидоры, 
+томат-пюре, картофель, чеснок, бульон мясной,
+соль, перец чёрный, зелень петрушки...</p>
+<div class="botom_cuption">
+	<div class="left_b">
+		<img src="img/like.png"><span>16</span>
+	</div>
+	<div class="right_b">
+		<img src="img/odnoklassniki.png">
+		<img src="img/facebook.png">
+		<img src="img/vk.png">
+	</div>
+</div>
+      </div>
+    </div>
+<div class="post_item new recomended"> 
+      <div class="image">
+      	<img src="img/bludo4.jpg">
+      	<div class="author">
+      		<img src="img/ellipse.png">
+      		<p>Darina Fedorenko</p>
+      	</div>
+      </div>
+      <div class="image_cuption">
+      	<h5>Утиные ножки с овощми и грудинкой</h5>
+      	<div class="timer">
+      		<div class="tim">
+      			<img src="img/clock.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/shapka.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/run.png">
+      			<span>135 kKal</span>
+      		</div>
+      	</div>
+      	<p>говядина, масло топлёное, лук репчатый, 
+морковь, редька, перец сладкий, помидоры, 
+томат-пюре, картофель, чеснок, бульон мясной,
+соль, перец чёрный, зелень петрушки...</p>
+<div class="botom_cuption">
+	<div class="left_b">
+		<img src="img/like.png"><span>16</span>
+	</div>
+	<div class="right_b">
+		<img src="img/odnoklassniki.png">
+		<img src="img/facebook.png">
+		<img src="img/vk.png">
+	</div>
+</div>
+      </div>
+    </div>
+<div class="post_item new recomended"> 
+      <div class="image">
+      	<img src="img/bludo3.jpg">
+      	<div class="author">
+      		<img src="img/ellipse.png">
+      		<p>Darina Fedorenko</p>
+      	</div>
+      </div>
+      <div class="image_cuption">
+      	<h5>Утиные ножки с овощми и грудинкой</h5>
+      	<div class="timer">
+      		<div class="tim">
+      			<img src="img/clock.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/shapka.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/run.png">
+      			<span>135 kKal</span>
+      		</div>
+      	</div>
+      	<p>говядина, масло топлёное, лук репчатый, 
+морковь, редька, перец сладкий, помидоры, 
+томат-пюре, картофель, чеснок, бульон мясной,
+соль, перец чёрный, зелень петрушки...</p>
+<div class="botom_cuption">
+	<div class="left_b">
+		<img src="img/like.png"><span>16</span>
+	</div>
+	<div class="right_b">
+		<img src="img/odnoklassniki.png">
+		<img src="img/facebook.png">
+		<img src="img/vk.png">
+	</div>
+</div>
+      </div>
+    </div>
+<div class="post_item new"> 
+      <div class="image">
+      	<img src="img/bludo2.jpg">
+      	<div class="author">
+      		<img src="img/ellipse.png">
+      		<p>Darina Fedorenko</p>
+      	</div>
+      </div>
+      <div class="image_cuption">
+      	<h5>Утиные ножки с овощми и грудинкой</h5>
+      	<div class="timer">
+      		<div class="tim">
+      			<img src="img/clock.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/shapka.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/run.png">
+      			<span>135 kKal</span>
+      		</div>
+      	</div>
+      	<p>говядина, масло топлёное, лук репчатый, 
+морковь, редька, перец сладкий, помидоры, 
+томат-пюре, картофель, чеснок, бульон мясной,
+соль, перец чёрный, зелень петрушки...</p>
+<div class="botom_cuption">
+	<div class="left_b">
+		<img src="img/like.png"><span>16</span>
+	</div>
+	<div class="right_b">
+		<img src="img/odnoklassniki.png">
+		<img src="img/facebook.png">
+		<img src="img/vk.png">
+	</div>
+</div>
+      </div>
+    </div><div class="post_item popular recomended"> 
+      <div class="image">
+      	<img src="img/bludo2.jpg">
+      	<div class="author">
+      		<img src="img/ellipse.png">
+      		<p>Darina Fedorenko</p>
+      	</div>
+      </div>
+      <div class="image_cuption">
+      	<h5>Утиные ножки с овощми и грудинкой</h5>
+      	<div class="timer">
+      		<div class="tim">
+      			<img src="img/clock.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/shapka.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/run.png">
+      			<span>135 kKal</span>
+      		</div>
+      	</div>
+      	<p>говядина, масло топлёное, лук репчатый, 
+морковь, редька, перец сладкий, помидоры, 
+томат-пюре, картофель, чеснок, бульон мясной,
+соль, перец чёрный, зелень петрушки...</p>
+<div class="botom_cuption">
+	<div class="left_b">
+		<img src="img/like.png"><span>16</span>
+	</div>
+	<div class="right_b">
+		<img src="img/odnoklassniki.png">
+		<img src="img/facebook.png">
+		<img src="img/vk.png">
+	</div>
+</div>
+      </div>
+    </div>
+    <div class="post_item new popular"> 
+      <div class="image">
+      	<img src="img/bludo2.jpg">
+      	<div class="author">
+      		<img src="img/ellipse.png">
+      		<p>Darina Fedorenko</p>
+      	</div>
+      </div>
+      <div class="image_cuption">
+      	<h5>Утиные ножки с овощми и грудинкой</h5>
+      	<div class="timer">
+      		<div class="tim">
+      			<img src="img/clock.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/shapka.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/run.png">
+      			<span>135 kKal</span>
+      		</div>
+      	</div>
+      	<p>говядина, масло топлёное, лук репчатый, 
+морковь, редька, перец сладкий, помидоры, 
+томат-пюре, картофель, чеснок, бульон мясной,
+соль, перец чёрный, зелень петрушки...</p>
+<div class="botom_cuption">
+	<div class="left_b">
+		<img src="img/like.png"><span>16</span>
+	</div>
+	<div class="right_b">
+		<img src="img/odnoklassniki.png">
+		<img src="img/facebook.png">
+		<img src="img/vk.png">
+	</div>
+</div>
+      </div>
+    </div>
+    <div class="post_item popular"> 
+      <div class="image">
+      	<img src="img/bludo4.jpg">
+      	<div class="author">
+      		<img src="img/ellipse.png">
+      		<p>Darina Fedorenko</p>
+      	</div>
+      </div>
+      <div class="image_cuption">
+      	<h5>Утиные ножки с овощми и грудинкой</h5>
+      	<div class="timer">
+      		<div class="tim">
+      			<img src="img/clock.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/shapka.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/run.png">
+      			<span>135 kKal</span>
+      		</div>
+      	</div>
+      	<p>говядина, масло топлёное, лук репчатый, 
+морковь, редька, перец сладкий, помидоры, 
+томат-пюре, картофель, чеснок, бульон мясной,
+соль, перец чёрный, зелень петрушки...</p>
+<div class="botom_cuption">
+	<div class="left_b">
+		<img src="img/like.png"><span>16</span>
+	</div>
+	<div class="right_b">
+		<img src="img/odnoklassniki.png">
+		<img src="img/facebook.png">
+		<img src="img/vk.png">
+	</div>
+</div>
+      </div>
+    </div>
+    <div class="post_item popular"> 
+      <div class="image">
+      	<img src="img/bludo3.jpg">
+      	<div class="author">
+      		<img src="img/ellipse.png">
+      		<p>Darina Fedorenko</p>
+      	</div>
+      </div>
+      <div class="image_cuption">
+      	<h5>Утиные ножки с овощми и грудинкой</h5>
+      	<div class="timer">
+      		<div class="tim">
+      			<img src="img/clock.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/shapka.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/run.png">
+      			<span>135 kKal</span>
+      		</div>
+      	</div>
+      	<p>говядина, масло топлёное, лук репчатый, 
+морковь, редька, перец сладкий, помидоры, 
+томат-пюре, картофель, чеснок, бульон мясной,
+соль, перец чёрный, зелень петрушки...</p>
+<div class="botom_cuption">
+	<div class="left_b">
+		<img src="img/like.png"><span>16</span>
+	</div>
+	<div class="right_b">
+		<img src="img/odnoklassniki.png">
+		<img src="img/facebook.png">
+		<img src="img/vk.png">
+	</div>
+</div>
+      </div>
+    </div>
+    <div class="post_item popular"> 
+      <div class="image">
+      	<img src="img/bludo4.jpg">
+      	<div class="author">
+      		<img src="img/ellipse.png">
+      		<p>Darina Fedorenko</p>
+      	</div>
+      </div>
+      <div class="image_cuption">
+      	<h5>Утиные ножки с овощми и грудинкой</h5>
+      	<div class="timer">
+      		<div class="tim">
+      			<img src="img/clock.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/shapka.png">
+      			<span>135 min</span>
+      		</div>
+      		<div class="tim">
+      			<img src="img/run.png">
+      			<span>135 kKal</span>
+      		</div>
+      	</div>
+      	<p>говядина, масло топлёное, лук репчатый, 
+морковь, редька, перец сладкий, помидоры, 
+томат-пюре, картофель, чеснок, бульон мясной,
+соль, перец чёрный, зелень петрушки...</p>
+<div class="botom_cuption">
+	<div class="left_b">
+		<img src="img/like.png"><span>16</span>
+	</div>
+	<div class="right_b">
+		<img src="img/odnoklassniki.png">
+		<img src="img/facebook.png">
+		<img src="img/vk.png">
+	</div>
+</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<div class="lavr">
+	<img src="img/06.png">
+	<p>#ГОРЯЧАЯ ПОДБОРКА</p>
+</div>
+<section class="podborka_block">
+	<div class="podborka">
+		<img src="img/4-15.jpg">
+		<p>ПОХМЕЛЬНЫЕ РЕЦЕПТЫ</p>
+	</div>
+	<div class="podborka">
+		<img src="img/4-14.jpg">
+		<p>ПОХМЕЛЬНЫЕ РЕЦЕПТЫ</p>
+	</div>
+	<div class="podborka">
+		<img src="img/4-16.jpg">
+		<p>ПОХМЕЛЬНЫЕ РЕЦЕПТЫ</p>
+	</div>
+	<div class="podborka">
+		<img src="img/4-17.jpg">
+		<p>ПОХМЕЛЬНЫЕ РЕЦЕПТЫ</p>
+	</div>
+</section>
+<section class="top_autor">
+	<h4>ТОП АВТОРОВ</h4>
+
+<div class="slider_block owl-carousel owl-theme">
+    <div class="slider">
+    <img src="img/sloi-214_01.png">
+    </div>
+    <div class="slider">
+    <img src="img/sloi-214_02.png">
+    </div>
+    <div class="slider">
+    <img src="img/sloi-214_03.png">
+    </div>
+    <div class="slider">
+    <img src="img/sloi-214_04.png">
+    </div>
+    <div class="slider">
+    <img src="img/sloi-214_05.png">
+    </div>
+    <div class="slider">
+    <img src="img/sloi-214_06.png">
+    </div>
+    <div class="slider">
+    <img src="img/sloi-214_07.png">
+    </div>
+    <div class="slider">
+    <img src="img/sloi-214_08.png">
+    </div>
+    <div class="slider">
+    <img src="img/sloi-214_08.png">
+    </div>
+    <div class="slider">
+    <img src="img/sloi-214_08.png">
+    </div>
+</div>
+</section>
+
+<section class="send">
+	<h4>Подпишиетсь на рассылку</h4>
+	<form name="form" action="#" method="post">
+		<input type="email" name="email" placeholder="введите свой email">
+		<input type="image" name="image" src="img/se.png">
+	</form>
+</section>
+
+</main>
+	</div>
+</div>
+
+</body>
+</html>

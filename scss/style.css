@@ -1,0 +1,44 @@
+@import url('font.css');
+@import url('header.css');
+@import url('fotorama_bg2.css');
+
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-wrap: break-word;
+	font-family: 'Raleway Regular';
+	font-size: 16px;
+overflow-x: hidden;
+}
+html{
+	background: #1a1a1a;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+img{
+	max-width: 100%;
+}
+.main_container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
